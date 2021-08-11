@@ -10,5 +10,5 @@ public class Post {
     private int del;  //удаление
     private int edit; //редактирование
     private boolean favorite;  //закладка, избранное
-    
+
 }
