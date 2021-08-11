@@ -8,6 +8,7 @@ public class Post {
     private Comments comements;  //комментарии
     private Likes likesl; // отметка нравится
     private Repost repost; // отметка о репостах
+    private View view;  // счетчик просмотров
     private int anchor;  //закрепить запись
     private int del;  //удаление
     private int edit; //редактирование
