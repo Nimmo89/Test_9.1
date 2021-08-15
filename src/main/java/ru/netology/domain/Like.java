@@ -3,7 +3,7 @@ package ru.netology.domain;
 public class Like {
     //v1
     private int count;
-    private int userLike;
+    private boolean userLike;
 
     public int getCount() {
         return count;
@@ -13,11 +13,11 @@ public class Like {
         this.count = count;
     }
 
-    public int getUserLike() {
+    public boolean getUserLike() {
         return userLike;
     }
 
-    public void setUserLike(int userLike) {
+    public void setUserLike(boolean userLike) {
         this.userLike = userLike;
     }
 
